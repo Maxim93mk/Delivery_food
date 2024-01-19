@@ -1,3 +1,43 @@
-body{
+body {
     background-color: #FEBB41;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.wrapper {
+    width: 1511px;
+    height: 886px;
+    border-radius: 24px;
+    background: linear-gradient(305deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+    display: inline-block;
+    margin: 120px auto auto 120px;
+    padding: 48px 87px;
+}
+
+.logo_button {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.8%;
+}
+
+.nav_elem {
+    list-style: none;
+    display: inline-block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%; /* 20.856px */
+}
+
+.nav{
+    display: inline-block;
 }
