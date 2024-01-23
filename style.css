@@ -26,6 +26,9 @@ button {
     font-weight: 600;
     line-height: 139.8%;
 }
+.nav{
+    display: inline-block;
+}
 
 .nav_elem {
     list-style: none;
@@ -38,6 +41,3 @@ button {
     line-height: 94.8%; /* 20.856px */
 }
 
-.nav{
-    display: inline-block;
-}
