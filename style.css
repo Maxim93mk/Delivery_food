@@ -77,6 +77,8 @@ button {
 
 .info {
     margin-top: 37px;
+    display: inline-block;
+    width: 100%;
 }
 
 .info_headers_1 {
@@ -100,23 +102,11 @@ button {
     letter-spacing: -4.375px;
     display: inline-block;
 }
-.info{
-    display: inline-block;
-}
-.info_img {
-    width: 750px;
-    height: 712px;
-}
 
 .info_left {
     display: inline-block;
     width: 568px;
-}
-
-.info_right {
-    display: inline-block;
-    width: 750px;
-   
+    padding-top: 160px;
 }
 
 .info_text {
@@ -145,6 +135,7 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: 19px;
+    display: inline-block;
 }
 
 .watch_btn_span {
@@ -158,6 +149,7 @@ button {
     font-size: 23px;
     padding-left: 20px;
     margin-left: 28px;
+    display: inline-block;
 }
 
 .watch_btn_text {
@@ -173,12 +165,14 @@ button {
 
 .raiting {
     margin-top: 69px;
+    display: inline-block;
 }
-.raiting_star_img{
+
+.raiting_star_img {
     width: 28px;
     height: 28px;
-    margin-left: 2px;
 }
+
 .raiting_text {
     margin-top: 11px;
 }
@@ -199,4 +193,17 @@ button {
     font-style: normal;
     font-weight: 300;
     line-height: 25px;
+}
+
+.info_right {
+    display: inline-block;
+    width:  750px;
+    margin-left: 37px;
+    vertical-align: top;
+}
+.info_img {
+    width: 750px;
+    height: 712px;
+    display: inline-block;
+    
 }
