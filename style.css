@@ -74,11 +74,11 @@ button {
     line-height: 20px;
     margin-left: 120px;
 }
-.info{
+
+.info {
     margin-top: 37px;
 }
-.info_headers{
-}
+
 .info_headers_1 {
     color: #2F2F2F;
     font-family: Poppins;
@@ -166,4 +166,30 @@ button {
     line-height: 19px;
     display: inline-block;
     margin-left: 11px;
+}
+
+.raiting {
+    margin-top: 69px;
+}
+
+.raiting_text {
+    margin-top: 11px;
+}
+
+.raiting_p_bold {
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.raiting_p {
+    color: #909090;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
 }
