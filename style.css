@@ -197,13 +197,14 @@ button {
 
 .info_right {
     display: inline-block;
-    width:  750px;
+    width: 750px;
     margin-left: 37px;
     vertical-align: top;
 }
+
 .info_img {
     width: 750px;
     height: 712px;
     display: inline-block;
-    
+
 }
