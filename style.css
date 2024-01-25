@@ -206,6 +206,5 @@ button {
     width: 750px;
     height: 712px;
     display: inline-block;
-    line-height: 94.8%;
-    /* 20.856px */
+    line-height: 21px;
 }
