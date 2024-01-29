@@ -23,7 +23,7 @@ main {
     display: flex;
     width: 100%;
     margin-top: 37px;
-    gap:85px;
+    gap: 85px;
 }
 
 a {
