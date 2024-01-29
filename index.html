@@ -4,58 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Delivery Food</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Foo</title>
 </head>
 <body>
     <div class="wrapper">
-        <nav>
-            <img src="./img/logo.svg" alt="Логотип">
-            <button class="logo_button">Fоо</button>
-            <ul class="nav">
-                <li class="nav_elem"><button class="nav_elem_btn">Home</button></li>
-                <li class="nav_elem"><button class="nav_elem_btn">Menu</button></li>
-                <li class="nav_elem"><button class="nav_elem_btn">Contact</button></li>
-                <li class="nav_elem"><button class="nav_elem_btn">Shop</button></li>
-            </ul>
-            <input type="text" placeholder="Search" class="search_input">
-        </nav>
-        <div class="info">
-            <div class="info_left">
-                <div class="info_headers">
-                    <h2 class="info_headers_2">Fast</h2>
-                    <h1 class="info_headers_1">Food
-                        <hr>Delivery
-                    </h1>
+        <header>
+            <a href="#" class="logo_href">
+                <img src="./img/logo.svg" alt="Логотип">
+                <span>Foo</span>
+            </a>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+                <a href="#">Shop</a>
+            </nav>
+            <div class="search">
+                <img src="./img/search.svg" alt="Иконка поиска">
+                <input type="text" placeholder="Search">
+                <div class="cart">
+                    <img src="./img/Shopping cart.svg" alt="Корзина">
+                    <span>2</span>
                 </div>
-                <p class="info_text">Sed ut perspiciatis unde omnis iste natus sit
-                    <br> voluptatem accusantium doloremque laudantium
-                </p>
-                <div class="info_order">
-                    <button class="order_btn">Order Now</button>
-                    <button class="watch_btn">
-                        <span class="watch_btn_span">&#9658</span>
-                        <p class="watch_btn_text">Watch Video</p>
-                    </button>
+            </div>
+        </header>
+        <main>
+            <div class="left_content">
+                <div class="h_group">
+                    <h2>Fast</h2>
+                    <h1>Food<br>Delivery</h1>
+                </div>
+                <p class="h_discription">Sed ut perspiciatis unde omnis iste natus sit<br>voluptatem accusantium
+                    doloremque laudantium</p>
+                <div class="btn_group">
+                    <button class="btn_order">Order Now</button>
+                    <span class="btn_watch">&#9658</span>
+                    <p>Watch Video</p>
                 </div>
                 <div class="raiting">
-                    <div class="raiting_img">
-                        <img src="./img/star.svg" class="raiting_star_img" alt="Рейтинг">
-                        <img src="./img/star.svg" class="raiting_star_img" alt="Рейтинг">
-                        <img src="./img/star.svg" class="raiting_star_img" alt="Рейтинг">
-                        <img src="./img/star.svg" class="raiting_star_img" alt="Рейтинг">
-                        <img src="./img/star.svg" class="raiting_star_img" alt="Рейтинг">
+                    <div class="raiting_stars">
+                        <img src="./img/emojione_star.svg" alt="Рейтинг">
+                        <img src="./img/emojione_star.svg" alt="Рейтинг">
+                        <img src="./img/emojione_star.svg" alt="Рейтинг">
+                        <img src="./img/emojione_star.svg" alt="Рейтинг">
+                        <img src="./img/emojione_star.svg" alt="Рейтинг">
                     </div>
-                    <div class="raiting_text">
-                        <p class="raiting_p_bold">5 star rating</p>
-                        <p class="raiting_p">based on 1788 reviews</p>
-                    </div>
+                    <p>5 star rating<br><span>based on 1788 reviews</span></p>
                 </div>
             </div>
-            <div class="info_right">
-                <img src="./img/food.png" class="info_img" alt="Изображение еды">
+            <div class="right_content">
+                <img src="./img/food.png" alt="Картинка еды">
             </div>
-    </section>
+        </main>
     </div>
 </body>
 </html>
